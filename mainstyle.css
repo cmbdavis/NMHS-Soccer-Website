@@ -1,0 +1,40 @@
+﻿@charset "utf-8";
+/* The main style sheet for this website */
+
+nav {background-color:blue; height:30%;border: 7px solid red;border-radius:25px;z-index:100;}
+nav ul {list-style-type:none;
+	padding-left:20%;
+	vertical-align:baseline;
+	text-align:center;z-index:150;}
+nav li {float:left; width:12em;z-index:150; }
+nav h1 {color:white; font-size:3em;vertical-align:middle;z-index:150;text-align:center;}
+nav img {border:none; border-radius:20px 0px 0px 20px;z-index:150;}
+nav a {color:white;z-index:150;}
+#teamcaptain {color:black;}
+#nextgame {font-size:1.2em;color:yellow; font-style:bold;}
+table {border-collapse: collapse;
+	margin-left:25px;}
+caption {
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-top: 0.5em;
+	}
+article {
+	background:  #e3e3e3;border: 7px solid red;border-radius:25px 25px 25px 25px; 
+	float:left;
+	width:75%;}
+aside {
+	background:  blue; border: 7px solid red;border-radius:25px;z-index:300;
+	color:white;
+	text-align:center;
+	font-size:0.75em;
+	float:right
+	width:25%;
+	}
+img {border: 4px solid white;z-index:150;border-radius:25px;float:left; margin-right:25px;}
+td {border: 2px solid red; font-size:1.2em}
+body article h1 {color:‪white; font-family: "Verdana", Comic Sans MS, serif;font-size:1.2m;z-index:150; font-style:normal;}
+body article h2 {color:‪white; font-family: "Verdana", Comic Sans MS, serif;font-size:0.9em;z-index:150; font-style:italic;}
+body article h3 {margin-right: 10px;color:‪white; font-family: "Verdana", Comic Sans MS, serif;font-size:0.75em;z-index:150; font-style:italic;}
+body article p {color:‪white; font-family: "Verdana", Comic Sans MS, serif;font-size:0.8em;z-index:150; font-style:normal;}
+body a {color:‪white; font-family: "Verdana", Comic Sans MS, serif;font-size:0.8em;z-index:150; font-style:normal;}
